@@ -135,6 +135,7 @@ $(document).ready(function () {
 <div id="october-16th-2017" class="section level3">
 <h3>October 16th 2017</h3>
 <p>This project illustrateshow to use leaflet package with R markdown to create an interactive map.</p>
+<p>The page ist hosted on Gituhb pages: <a href="https://michael-gm.github.io./">Leaflet project</a></p>
 <pre class="r"><code>set.seed(1234567890)
 library(leaflet)</code></pre>
 <pre><code>## Warning: package 'leaflet' was built under R version 3.3.3</code></pre>
@@ -147,7 +148,7 @@ mypopups &lt;- c(
 )
  
 myicon &lt;- makeIcon(
-&quot;https://de.wikipedia.org/wiki/Liste_der_Wappen_in_Aschaffenburg#/media/File:Wappen_Aschaffenburg.svg&quot;, 48, 48)  
+&quot;https://github.com/michael-gm/dataproducts1/blob/master/Wappen-farbig-jpg.jpg&quot;, 48, 48)  
 
 
 mymap &lt;- ab %&gt;% 
@@ -156,7 +157,7 @@ mymap &lt;- ab %&gt;%
   addMarkers(icon=myicon, popup = mypopups)
 mymap</code></pre>
 <div id="htmlwidget-e962d7bfb5c107f2f8fc" style="width:672px;height:480px;" class="leaflet html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e962d7bfb5c107f2f8fc">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap\u003c/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA\u003c/a>"}]},{"method":"addMarkers","args":[[49.96,50.12,50.1],[9.12,8.94,8.78],{"iconUrl":{"data":"https://de.wikipedia.org/wiki/Liste_der_Wappen_in_Aschaffenburg#/media/File:Wappen_Aschaffenburg.svg","index":0},"iconRetinaUrl":{"data":48,"index":0},"iconWidth":48},null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href='https://de.wikipedia.org/wiki/Aschaffenburg'>Aschaffenburg\u003c/a>","<a href='https://de.wikipedia.org/wiki/Hanau'>Hanau\u003c/a>","<a href='https://de.wikipedia.org/wiki/Offenbach_am_Main'>Offenbach\u003c/a>"],null,null,null,null,null,null]}],"setView":[[49.96,9.12],8,[]],"limits":{"lat":[49.96,50.12],"lng":[8.78,9.12]}},"evals":[],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-e962d7bfb5c107f2f8fc">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"maxNativeZoom":null,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"continuousWorld":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":null,"unloadInvisibleTiles":null,"updateWhenIdle":null,"detectRetina":false,"reuseTiles":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap\u003c/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA\u003c/a>"}]},{"method":"addMarkers","args":[[49.96,50.12,50.1],[9.12,8.94,8.78],{"iconUrl":{"data":"https://github.com/michael-gm/dataproducts1/blob/master/Wappen-farbig-jpg.jpg","index":0},"iconRetinaUrl":{"data":48,"index":0},"iconWidth":48},null,null,{"clickable":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href='https://de.wikipedia.org/wiki/Aschaffenburg'>Aschaffenburg\u003c/a>","<a href='https://de.wikipedia.org/wiki/Hanau'>Hanau\u003c/a>","<a href='https://de.wikipedia.org/wiki/Offenbach_am_Main'>Offenbach\u003c/a>"],null,null,null,null,null,null]}],"setView":[[49.96,9.12],8,[]],"limits":{"lat":[49.96,50.12],"lng":[8.78,9.12]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

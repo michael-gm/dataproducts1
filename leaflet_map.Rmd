@@ -26,7 +26,7 @@ mypopups <- c(
 )
  
 myicon <- makeIcon(
-"https://de.wikipedia.org/wiki/Liste_der_Wappen_in_Aschaffenburg#/media/File:Wappen_Aschaffenburg.svg", 48, 48)  
+"https://github.com/michael-gm/dataproducts1/blob/master/Wappen-farbig-jpg.jpg", 48, 48)  
 
 
 mymap <- ab %>% 
